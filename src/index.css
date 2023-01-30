@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+.li {
+  @apply w-24 h-7  text-lg font-serif text-center rounded-md hover:bg-indigo-700;
+}
+.btn {
+  @apply bg-indigo-600 rounded-md w-32 h-12 text-lg text-center  text-white my-3 hover:bg-purple-600;
+}
+
+@tailwind utilities;
