@@ -1,7 +1,10 @@
 import LandingPage from "./pages/landing";
+import { useState, useEffect } from "react";
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Homepage from "./pages/homepage";
 import Favourites from "./pages/Favourites";
+
 function App() {
   return (
     <>
